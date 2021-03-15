@@ -1,36 +1,36 @@
 OWASP API Security Top 10
 =========================
 
-This project is designed to address the ever-increasing number of organizations
-that are deploying potentially sensitive APIs as part of their software
-offerings. These APIs are used for internal tasks and to interface with third
-parties. Unfortunately, many APIs do not undergo the rigorous security testing
-that would help make them secure from an attack.
+Este proyecto está diseñado para abordar un número cada vez mayor de organizaciones 
+que están implementando API potencialmente sensibles como parte de sus ofertas de 
+software. Estas API se utilizan para tareas internas y para interactuar con terceros. 
+Desafortunadamente, muchas API no se someten a pruebas de seguridad rigurosas que 
+ayudarían a protegerlas de un ataque.
 
-The OWASP API Security Project seeks to provide value to software developers and
-security assessors by underscoring the potential risks in insecure APIs, and
-illustrating how these risks may be mitigated. In order to facilitate this goal,
-the OWASP API Security Project will create and maintain a Top 10 API Security
-Risks document, as well as a documentation portal for best practices when
-creating or assessing APIs.
+El Proyecto de Seguridad de API OWASP busca proporcionar valor a los desarrolladores 
+de software y evaluadores de seguridad al subrayar los riesgos potenciales en las 
+API inseguras, e ilustrar cómo se pueden mitigar estos riesgos. Para facilitar este 
+objetivo, el Proyecto de seguridad de API de OWASP creará y mantendrá un documento de 
+los 10 principales riesgos de seguridad de API, así como un portal de documentación 
+para las mejores prácticas al crear o evaluar API. 
 
-## Description
+## Descripción
 
-While working as developers or information security consultants, many people
-have encountered APIs as part of a project. While there are some resources to
-help create and evaluate these projects (such as the OWASP REST Security Cheat
-Sheet), there has not be a comprehensive security project designed to assist
-builders, breakers, and defenders in the community.
+Mientras trabajaban como desarrolladores o consultores de seguridad de la información, 
+muchas personas se han encontrado con APIs como parte de un proyecto. Si bien existen 
+algunos recursos para ayudar a crear y evaluar estos proyectos (como la Hoja de Trucos 
+de Seguridad OWASP REST), no ha habido un proyecto de seguridad integral diseñado para 
+ayudar a los constructores, probadores y defensores en la comunidad. 
 
-This project aims to:
+Este proyecto tiene como objetivo: 
 
-* Create the OWASP Top Ten API Security Risks document, which can easily
-  underscore the most common risks in the area.
-* Create a documentation portal for developers to build APIs in a secure manner.
-* Work closely with the security community to maintain living documents that
-  evolve with security trends.
+* Crear el documento OWASP Top Ten API Security Risks, que puede subrayar fácilmente 
+* los riesgos más comunes en el área.
+* Crear un portal de documentación para que los desarrolladores creen API de forma segura.
+* Trabajar en estrecha colaboración con la comunidad de seguridad para mantener documentos 
+* activos que evolucionen con las tendencias de seguridad. 
 
-## Project Leaders
+## Líderes del Proyecto
 
 * [Erez Yalon][0]
 * [Inon Shkedy][5]
@@ -39,12 +39,12 @@ This project aims to:
 
 **The OWASP API Security Project documents are free to use!**
 
-The OWASP API Security Project is licensed under the [Creative Commons
-Attribution-ShareAlike 3.0 license][1], so you can copy, distribute, and
-transmit the work. You can also adapt it, and use it commercially, as long as
-you attribute the work. If you alter, transform, or build upon this work, you
-may distribute the resulting work only under the same or similar license to this
-one.
+
+El Proyecto de Seguridad en API OWASP está licenciado bajo la [Creative Commons
+Attribution-ShareAlike 3.0 license][1], para que pueda copiar, distribuir y transmitir el 
+trabajo. También puede adaptarlo, y usarlo comercialmente, siempre y cuando atribuya el trabajo. 
+Si modifica, transforma o construye sobre este trabajo, puede distribuir el trabajo resultante 
+solo bajo la misma licencia o una similar a esta. 
 
 [0]: https://www.owasp.org/index.php/User:ErezYalon
 [1]: http://creativecommons.org/licenses/by-sa/3.0/

@@ -1,59 +1,60 @@
-How to Contribute
-=================
+Cómo contribuir
+===============
 
-When contributing to this repository, please first discuss the change you wish
-to make via submitting an issue with the owners of this repository before making
-a change. Fixing typos or rephrasing for better understanding DO NOT require
-discussion.
+Cuando contribuya a este repositorio, primero discuta el cambio que desea realizar
+enviando un problema con los propietarios de este repositorio antes de realizar 
+un cambio. La corrección de errores tipográficos o la reformulación para una mejor 
+comprensión NO requieren discusión. 
 
-## Branching Model
+## Modelo de ramificación
 
-This repository holds two main branches with an infinite lifetime:
-* `master` is the default branch which always reflects the latest release.
-* `develop` is the main branch reflecting the latest delivered changes for the
-  next release. When the `develop` branch reaches a stable point and is ready to
-  be released, then all changes should be merged back into `master`.
+Este repositorio tiene dos ramas principales con una vida útil infinita:
+* `master` es la rama predeterminada que siempre refleja la última versión.
+* `develop` es la rama principal que refleja los últimos cambios entregados para 
+la próxima versión. Cuando la rama "develop" alcanza un punto estable y está lista 
+para ser lanzada, entonces todos los cambios deben fusionarse nuevamente en "master". 
 
-A variety of supporting branches are used to aid parallel development. These
-branches have a limited lifespan, since they will be removed eventually.
+Se utiliza una variedad de ramas de apoyo para ayudar al desarrollo paralelo. 
+Estas ramas tienen una vida útil limitada, ya que eventualmente se eliminarán. 
 
-## Contributing
+## Contribuyendo
 
-Contributions to this repository are welcome. For ease of managing, please
-follow the steps below:
+Las contribuciones a este repositorio son bienvenidas. Para facilitar la 
+administración, siga los pasos a continuación: 
 
-1. Fork this repository to your account.
+1. Bifurque este repositorio a su cuenta. 
 
-2. Clone your copy of this repository, locally.
+2. Clona tu copia de este repositorio, localmente.
    ```
    git clone https://github.com/YOU/API-Security.git
    ```
-3. Create a new branch based on `develop` (e.g., `fix/foreword-section`).
+3. Cree una nueva rama basada en `develop` (e.g., `fix/foreword-section`).
    ```
    git checkout develop && git checkout -b fix/foreword-section
    ```
-4. Apply your changes.
-
-   Please, always follow our style conventions.
-
-   Although there's an [`.editorconfig` file][1] on repository's root, your
-   editor may not support it. To learn more about [EditorConfig][2] and text
-   editors/IDEs support, check the website: https://editorconfig.org/.
-
-5. Commit your changes.
-
-   1. Check modified files and add only required ones (e.g., build artifacts
-      SHOULD NOT be tracked).
-   2. The first line of the commit message should provide a brief description of
-      your changes. You can go into more details on the optional commit message
-      body.
-
-6. Push changes to your public repository.
+4. Aplique sus cambios.
+   
+   Por favor, siga siempre nuestras convenciones de estilo.
+   
+   Aunque hay un [archivo `.editorconfig`] [1] en la raíz del repositorio,
+   es posible que su editor no lo admita. Para obtener más información sobre 
+   [EditorConfig] [2] y la compatibilidad con editores de texto / IDE, 
+   consulte el sitio web: https://editorconfig.org/.
+   
+5. Confirme sus cambios.
+   
+   1. Verifique los archivos modificados y agregue solo los requeridos 
+      (por ejemplo, los artefactos de construcción NO DEBEN ser rastreados).
+   2. La primera línea del mensaje de confirmación debe proporcionar una breve 
+      descripción de sus cambios. Puede entrar en más detalles sobre el cuerpo 
+	  del mensaje de confirmación opcional.
+      
+6. Envíe los cambios a su repositorio público.
    ```
    git push origin fix/foreword-section
    ```
-7. Open a Pull Request from your `fix/foreword-section` to the upstream
-   repository `develop` branch.
+7. Abra una solicitud de extracción desde su `fix/foreword-section` 
+   a la rama upstream del repositorio `develop`. 
 
 [1]: .editorconfig
 [2]: https://editorconfig.org/

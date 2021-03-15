@@ -3,7 +3,7 @@ OWASP API Security Top 10
 
 Este proyecto está diseñado para abordar un número cada vez mayor de organizaciones que están implementando API potencialmente sensibles como parte de sus ofertas de software. Estas API se utilizan para tareas internas y para interactuar con terceros. Desafortunadamente, muchas API no se someten a pruebas de seguridad rigurosas que ayudarían a protegerlas de un ataque.
 
-El Proyecto de seguridad de API de OWASP busca proporcionar valor a los desarrolladores de software y evaluadores de seguridad al subrayar los riesgos potenciales en las API inseguras, e ilustrar cómo se pueden mitigar estos riesgos. Para facilitar este objetivo, el Proyecto de seguridad de API de OWASP creará y mantendrá un documento de los 10 principales riesgos de seguridad de API, así como un portal de documentación para las mejores prácticas al crear o evaluar API. 
+El Proyecto de Seguridad de API OWASP busca proporcionar valor a los desarrolladores de software y evaluadores de seguridad al subrayar los riesgos potenciales en las API inseguras, e ilustrar cómo se pueden mitigar estos riesgos. Para facilitar este objetivo, el Proyecto de seguridad de API de OWASP creará y mantendrá un documento de los 10 principales riesgos de seguridad de API, así como un portal de documentación para las mejores prácticas al crear o evaluar API. 
 
 ## Descripción
 
